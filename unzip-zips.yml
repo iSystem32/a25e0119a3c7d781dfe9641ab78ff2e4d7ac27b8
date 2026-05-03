@@ -1,0 +1,70 @@
+name: Descomprimir .zip versionados y crear PR
+
+on:
+  workflow_dispatch:
+    inputs:
+      delete_zips:
+        description: 'Set to "yes" to remove the .zip files después de descomprimir (default: no)'
+        required: false
+        default: 'no'
+
+jobs:
+  unzip:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Configurar git
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+      - name: Encontrar y descomprimir .zip versionados, preparar commit en rama nueva
+        id: unzip
+        shell: bash
+        run: |
+          set -euo pipefail
+          TIMESTAMP="$(date +%Y%m%d-%H%M%S)"
+          BRANCH="unzip/${TIMESTAMP}"
+          git checkout -b "$BRANCH"
+
+          found=false
+          # Procesa solo los .zip versionados
+          while IFS= read -r -d '' zipfile; do
+            found=true
+            dir=$(dirname "$zipfile")
+            mkdir -p "$dir"
+            echo "Descomprimiendo '$zipfile' en '$dir'..."
+            unzip -o "$zipfile" -d "$dir"
+          done < <(git ls-files -z -- '*.zip')
+
+          if [ "$found" = false ]; then
+            echo "No se encontraron archivos .zip versionados."
+            echo "branch=" >> $GITHUB_OUTPUT
+            exit 0
+          fi
+
+          # Eliminar .zip versionados si el input delete_zips == "yes"
+          if [ "${{ github.event.inputs.delete_zips }}" = "yes" ]; then
+            echo "Eliminando .zip versionados del índice y del disco..."
+            git ls-files -z -- '*.zip' | xargs -0 -r git rm -f
+            find . -type f -name '*.zip' -print0 | xargs -0 -r rm -f
+          fi
+
+          git add -A
+          git commit -m "Descomprimir y agregar archivos desde zips" || echo "No changes to commit"
+          echo "branch=$BRANCH" >> $GITHUB_OUTPUT
+
+      - name: Crear Pull Request con los cambios
+        if: steps.unzip.outputs.branch != ''
+        uses: peter-evans/create-pull-request@v5
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          commit-message: "Descomprimir y agregar archivos desde zips"
+          branch: ${{ steps.unzip.outputs.branch }}
+          title: "Descomprimir y agregar archivos desde zips"
+          body: "Contenido descomprimido desde los archivos .zip versionados."
+          base: main
