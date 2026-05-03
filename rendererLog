@@ -1,0 +1,56 @@
+2026-05-03 17:45:28.179 [warning] [Window] Ignoring the error while validating workspace folder vscode-vfs://github%2B7b2276223a312c22726566223a7b2274797065223a342c226964223a22756e7a69702d746f2d6578747261637465642d6469722d3130383736383536303535363035303333353131227d7d/iSystem32/a25e0119a3c7d781dfe9641ab78ff2e4d7ac27b8 - ENOPRO: No s'ha trobat cap proveïdor del sistema de fitxers per al recurs «vscode-vfs://github%2B7b2276223a312c22726566223a7b2274797065223a342c226964223a22756e7a69702d746f2d6578747261637465642d6469722d3130383736383536303535363035303333353131227d7d/iSystem32/a25e0119a3c7d781dfe9641ab78ff2e4d7ac27b8»
+2026-05-03 17:45:28.876 [warning] [Window] Creation of workbench contribution 'workbench.contrib.preferencesActions' took 27ms.
+2026-05-03 17:45:28.955 [warning] [Window] Creation of workbench contribution 'workbench.contrib.remoteStatusIndicator' took 32ms.
+2026-05-03 17:45:30.501 [info] [Window] Found additional builtin gallery extensions in env [{"id":"github.codespaces","preRelease":false},{"id":"ms-vscode.anycode","preRelease":false},{"id":"github.remotehub","preRelease":false},{"id":"GitHub.vscode-pull-request-github","preRelease":false},{"id":"github.github-vscode-theme","preRelease":false}]
+2026-05-03 17:45:32.541 [info] [Window] Request to 'https://www.vscode-unpkg.net/_lp/41dd792b5e652393e7787322889ed5fdc58bd75b/1.115.0/ca/vscode.mermaid-chat-features/package' failed with status code 404
+2026-05-03 17:45:32.543 [error] [Window] Error
+    at Adt.readExtensionResource (https://assets.github.dev/stable/41dd792b5e652393e7787322889ed5fdc58bd75b/out/vs/workbench/workbench.web.main.internal.js:4934:40835)
+    at async PXe.localizeManifest (https://assets.github.dev/stable/41dd792b5e652393e7787322889ed5fdc58bd75b/out/vs/workbench/workbench.web.main.internal.js:1858:5599)
+    at async https://assets.github.dev/stable/41dd792b5e652393e7787322889ed5fdc58bd75b/out/vs/workbench/workbench.web.main.internal.js:1858:5104
+2026-05-03 17:45:32.546 [info] [Window] Request to 'https://www.vscode-unpkg.net/_lp/41dd792b5e652393e7787322889ed5fdc58bd75b/1.115.0/ca/vscode.prompt/package' failed with status code 404
+2026-05-03 17:45:32.547 [error] [Window] Error
+    at Adt.readExtensionResource (https://assets.github.dev/stable/41dd792b5e652393e7787322889ed5fdc58bd75b/out/vs/workbench/workbench.web.main.internal.js:4934:40835)
+    at async PXe.localizeManifest (https://assets.github.dev/stable/41dd792b5e652393e7787322889ed5fdc58bd75b/out/vs/workbench/workbench.web.main.internal.js:1858:5599)
+    at async https://assets.github.dev/stable/41dd792b5e652393e7787322889ed5fdc58bd75b/out/vs/workbench/workbench.web.main.internal.js:1858:5104
+2026-05-03 17:45:32.583 [info] [Window] Request to 'https://www.vscode-unpkg.net/_lp/41dd792b5e652393e7787322889ed5fdc58bd75b/1.115.0/ca/vscode.dotenv/package' failed with status code 404
+2026-05-03 17:45:32.584 [error] [Window] Error
+    at Adt.readExtensionResource (https://assets.github.dev/stable/41dd792b5e652393e7787322889ed5fdc58bd75b/out/vs/workbench/workbench.web.main.internal.js:4934:40835)
+    at async PXe.localizeManifest (https://assets.github.dev/stable/41dd792b5e652393e7787322889ed5fdc58bd75b/out/vs/workbench/workbench.web.main.internal.js:1858:5599)
+    at async https://assets.github.dev/stable/41dd792b5e652393e7787322889ed5fdc58bd75b/out/vs/workbench/workbench.web.main.internal.js:1858:5104
+2026-05-03 17:45:35.996 [error] [Window] No Auth Token Available: Unauthorized (UserDataSyncError) syncResource:unknown operationId:unknown: No Auth Token Available
+    at GLe.request (https://assets.github.dev/stable/41dd792b5e652393e7787322889ed5fdc58bd75b/out/vs/workbench/workbench.web.main.internal.js:1859:20747)
+    at GLe.resolveResourceContent (https://assets.github.dev/stable/41dd792b5e652393e7787322889ed5fdc58bd75b/out/vs/workbench/workbench.web.main.internal.js:1859:16217)
+    at Sre.getLastSyncUserData (https://assets.github.dev/stable/41dd792b5e652393e7787322889ed5fdc58bd75b/out/vs/workbench/workbench.web.main.internal.js:1859:37239)
+    at async Sre.getLastSyncedProfiles (https://assets.github.dev/stable/41dd792b5e652393e7787322889ed5fdc58bd75b/out/vs/workbench/workbench.web.main.internal.js:4940:26099)
+    at async S2e.cleanUpStaleStorageData (https://assets.github.dev/stable/41dd792b5e652393e7787322889ed5fdc58bd75b/out/vs/workbench/workbench.web.main.internal.js:4940:40473)
+2026-05-03 17:45:36.893 [info] [Window] Migrating workspace extension storage from github.remotehub to GitHub.remotehub...
+2026-05-03 17:45:36.896 [info] [Window] Migrated workspace extension storage from github.remotehub to GitHub.remotehub
+2026-05-03 17:45:37.274 [info] [Window] Updating additional builtin extensions cache
+2026-05-03 17:45:37.592 [info] [Window] Migrating workspace extension storage from github.vscode-pull-request-github to GitHub.vscode-pull-request-github...
+2026-05-03 17:45:37.593 [info] [Window] Migrated workspace extension storage from github.vscode-pull-request-github to GitHub.vscode-pull-request-github
+2026-05-03 17:45:37.703 [info] [Window] Settings Sync: Account status changed from uninitialized to available
+2026-05-03 17:45:38.064 [info] [Canvis al núvol] Prompting to enable cloud changes, has application previously launched from Continue On flow: false
+2026-05-03 17:45:42.025 [error] [Network] #48: https://marketplace.visualstudio.com/_apis/public/gallery/extensionquery - error POST Canceled
+2026-05-03 17:45:42.030 [error] [Window] Canceled: Canceled
+    at hI (https://assets.github.dev/stable/41dd792b5e652393e7787322889ed5fdc58bd75b/out/vs/workbench/workbench.web.main.internal.js:383:1436)
+    at B_o (https://assets.github.dev/stable/41dd792b5e652393e7787322889ed5fdc58bd75b/out/vs/workbench/workbench.web.main.internal.js:4897:17685)
+    at async xKe.logAndRequest (https://assets.github.dev/stable/41dd792b5e652393e7787322889ed5fdc58bd75b/out/vs/workbench/workbench.web.main.internal.js:935:10285)
+    at async xKe.request (https://assets.github.dev/stable/41dd792b5e652393e7787322889ed5fdc58bd75b/out/vs/workbench/workbench.web.main.internal.js:4897:19289)
+    at async EXe.queryRawGalleryExtensions (https://assets.github.dev/stable/41dd792b5e652393e7787322889ed5fdc58bd75b/out/vs/workbench/workbench.web.main.internal.js:1811:50547)
+    at async EXe.queryGalleryExtensions (https://assets.github.dev/stable/41dd792b5e652393e7787322889ed5fdc58bd75b/out/vs/workbench/workbench.web.main.internal.js:1811:46701)
+    at async s (https://assets.github.dev/stable/41dd792b5e652393e7787322889ed5fdc58bd75b/out/vs/workbench/workbench.web.main.internal.js:1811:45388)
+    at async EXe.query (https://assets.github.dev/stable/41dd792b5e652393e7787322889ed5fdc58bd75b/out/vs/workbench/workbench.web.main.internal.js:1811:45849)
+    at async k2e.getBuiltInExtensionTranslationsUri (https://assets.github.dev/stable/41dd792b5e652393e7787322889ed5fdc58bd75b/out/vs/workbench/workbench.web.main.internal.js:4940:88728)
+    at async hEt.$fetchBuiltInBundleUri (https://assets.github.dev/stable/41dd792b5e652393e7787322889ed5fdc58bd75b/out/vs/workbench/workbench.web.main.internal.js:932:84625)
+2026-05-03 17:45:42.032 [error] [Network] #49: https://marketplace.visualstudio.com/_apis/public/gallery/extensionquery - error POST Canceled
+2026-05-03 17:45:42.033 [error] [Window] Canceled: Canceled
+    at hI (https://assets.github.dev/stable/41dd792b5e652393e7787322889ed5fdc58bd75b/out/vs/workbench/workbench.web.main.internal.js:383:1436)
+    at B_o (https://assets.github.dev/stable/41dd792b5e652393e7787322889ed5fdc58bd75b/out/vs/workbench/workbench.web.main.internal.js:4897:17685)
+    at async xKe.logAndRequest (https://assets.github.dev/stable/41dd792b5e652393e7787322889ed5fdc58bd75b/out/vs/workbench/workbench.web.main.internal.js:935:10285)
+    at async xKe.request (https://assets.github.dev/stable/41dd792b5e652393e7787322889ed5fdc58bd75b/out/vs/workbench/workbench.web.main.internal.js:4897:19289)
+    at async EXe.queryRawGalleryExtensions (https://assets.github.dev/stable/41dd792b5e652393e7787322889ed5fdc58bd75b/out/vs/workbench/workbench.web.main.internal.js:1811:50547)
+    at async EXe.queryGalleryExtensions (https://assets.github.dev/stable/41dd792b5e652393e7787322889ed5fdc58bd75b/out/vs/workbench/workbench.web.main.internal.js:1811:46701)
+    at async s (https://assets.github.dev/stable/41dd792b5e652393e7787322889ed5fdc58bd75b/out/vs/workbench/workbench.web.main.internal.js:1811:45388)
+    at async EXe.query (https://assets.github.dev/stable/41dd792b5e652393e7787322889ed5fdc58bd75b/out/vs/workbench/workbench.web.main.internal.js:1811:45849)
+    at async k2e.getBuiltInExtensionTranslationsUri (https://assets.github.dev/stable/41dd792b5e652393e7787322889ed5fdc58bd75b/out/vs/workbench/workbench.web.main.internal.js:4940:88728)
+    at async hEt.$fetchBuiltInBundleUri (https://assets.github.dev/stable/41dd792b5e652393e7787322889ed5fdc58bd75b/out/vs/workbench/workbench.web.main.internal.js:932:84625)
