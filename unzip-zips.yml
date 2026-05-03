@@ -35,7 +35,8 @@ jobs:
           # Procesa solo los .zip versionados
           while IFS= read -r -d '' zipfile; do
             found=true
-            dir=$(dirname "$zipfile")
+            # Extrae en extracted/<ruta_relativa>/<contenido> para evitar sobrescribir ficheros del repo
+            dir="extracted/$zipfile"
             mkdir -p "$dir"
             echo "Descomprimiendo '$zipfile' en '$dir'..."
             unzip -o "$zipfile" -d "$dir"
