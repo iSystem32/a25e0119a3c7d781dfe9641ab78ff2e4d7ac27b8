@@ -1,0 +1,42 @@
+2026-05-03 17:45:38.726 [info] [Activation] Extension version: 0.140.0
+2026-05-03 17:45:38.726 [info] [TemporaryState] Error in initialization: No s'ha pogut suprimir el fitxer inexistent 'vscode-userdata:/User/globalStorage/github.vscode-pull-request-github/temp'
+2026-05-03 17:45:38.862 [info] [Authentication] Creating hub for .com
+2026-05-03 17:45:39.222 [info] [Activation] Registering built in git provider.
+2026-05-03 17:45:39.223 [info] [Activation] Looking for git repository
+2026-05-03 17:45:39.223 [info] [Activation] Found 0 repositories during activation
+2026-05-03 17:45:39.224 [info] [Activation] Git repository found, initializing review manager and pr tree view.
+2026-05-03 17:45:39.354 [info] [GitPostCommitCommands] Trying to register post commit commands.
+2026-05-03 17:45:39.389 [info] [GitAPI] Registering git provider
+2026-05-03 17:45:42.120 [info] [GitAPI] Repository vscode-vfs://github%2B7b2276223a312c22726566223a7b2274797065223a342c226964223a22756e7a69702d746f2d6578747261637465642d6469722d3130383736383536303535363035303333353131227d7d/iSystem32/a25e0119a3c7d781dfe9641ab78ff2e4d7ac27b8 has been opened
+2026-05-03 17:45:42.122 [info] [Review+0] Validate state in progress
+2026-05-03 17:45:42.123 [info] [Review+0] Validating state...
+2026-05-03 17:45:42.398 [info] [FolderRepositoryManager+0] Found GitHub remote for folder /iSystem32/a25e0119a3c7d781dfe9641ab78ff2e4d7ac27b8
+2026-05-03 17:45:44.173 [info] [FolderRepositoryManager+0] Trying to use globalState for assignableUsers.
+2026-05-03 17:45:44.175 [info] [GitPostCommitCommands] Trying to register post commit commands.
+2026-05-03 17:45:44.175 [info] [GitPostCommitCommands] GitHub remote(s) found, registering post commit commands.
+2026-05-03 17:45:44.245 [info] [Review+0] No matching pull request metadata found locally for current branch unzip-to-extracted-dir-10876856055605033511
+2026-05-03 17:45:44.574 [error] [FolderRepositoryManager+0] Error parsing assignableUsers cache for origin.
+2026-05-03 17:45:44.576 [info] [FolderRepositoryManager+0] Using globalState assignableUsers for 1.
+2026-05-03 17:45:45.348 [info] [Review+0] Found matching pull request metadata on GitHub for current branch unzip-to-extracted-dir-10876856055605033511. Repo: iSystem32/a25e0119a3c7d781dfe9641ab78ff2e4d7ac27b8 PR: 4
+2026-05-03 17:45:45.369 [info] [PullRequestGitHelper] associate unzip-to-extracted-dir-10876856055605033511 with Pull Request #4
+2026-05-03 17:45:45.370 [info] [Review+0] Found matching pull request metadata for current branch unzip-to-extracted-dir-10876856055605033511. Repo: iSystem32/a25e0119a3c7d781dfe9641ab78ff2e4d7ac27b8 PR: 4
+2026-05-03 17:45:45.371 [info] [Review+0] current branch unzip-to-extracted-dir-10876856055605033511 is associated with pull request #4
+2026-05-03 17:45:45.372 [info] [Review+0] Resolving pull request
+2026-05-03 17:45:46.952 [info] [GitHubRepository+0] Fetch branch main - enter
+2026-05-03 17:45:46.992 [info] [GitHubRepository+0] Fetch branch main - done: true
+2026-05-03 17:45:46.993 [info] [Review+0] Resolved PR #4, state is MERGED
+2026-05-03 17:45:47.411 [info] [Review+0] Found matching pull request metadata on GitHub for current branch unzip-to-extracted-dir-10876856055605033511. Repo: iSystem32/a25e0119a3c7d781dfe9641ab78ff2e4d7ac27b8 PR: 4
+2026-05-03 17:45:47.415 [info] [PullRequestGitHelper] associate unzip-to-extracted-dir-10876856055605033511 with Pull Request #4
+2026-05-03 17:45:47.477 [info] [Review+0] Fetching pull request data
+2026-05-03 17:45:47.478 [info] [PullRequestTree] Adding PR #4 to tree
+2026-05-03 17:45:47.660 [info] [Review+0] Register comments provider
+2026-05-03 17:45:47.668 [info] [Review+0] Register in memory content provider
+2026-05-03 17:45:47.687 [info] [PullRequestModel] PR is merged, fetching all file changes
+2026-05-03 17:45:47.692 [info] [PullRequestModel] PR is merged, fetching all file changes
+2026-05-03 17:45:48.252 [info] [Review+0] Display pull request status bar indicator.
+2026-05-03 17:45:48.252 [info] [Review+0] Using focus mode = true.
+2026-05-03 17:45:48.253 [info] [Review+0] State validation silent = true.
+2026-05-03 17:45:48.254 [info] [Review+0] PR show should show = false.
+2026-05-03 17:50:40.126 [info] [Review+0] Polling for state change...
+2026-05-03 17:52:41.498 [info] [Activation] Repo state for vscode-vfs://github%2B7b2276223a312c22726566223a7b2274797065223a342c226964223a22756e7a69702d746f2d6578747261637465642d6469722d3130383736383536303535363035303333353131227d7d/iSystem32/a25e0119a3c7d781dfe9641ab78ff2e4d7ac27b8 changed.
+2026-05-03 17:52:41.503 [info] [Activation] Repo vscode-vfs://github%2B7b2276223a312c22726566223a7b2274797065223a342c226964223a22756e7a69702d746f2d6578747261637465642d6469722d3130383736383536303535363035303333353131227d7d/iSystem32/a25e0119a3c7d781dfe9641ab78ff2e4d7ac27b8 has already been setup.
