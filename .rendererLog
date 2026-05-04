@@ -1,0 +1,24 @@
+2026-05-04 13:52:40.789 [warning] [Window] Ignoring the error while validating workspace folder vscode-vfs://github%2B7b2276223a312c22726566223a7b2274797065223a362c226964223a2257696e646f77227d7d/iSystem32/a25e0119a3c7d781dfe9641ab78ff2e4d7ac27b8 - ENOPRO: No file system provider found for resource 'vscode-vfs://github%2B7b2276223a312c22726566223a7b2274797065223a362c226964223a2257696e646f77227d7d/iSystem32/a25e0119a3c7d781dfe9641ab78ff2e4d7ac27b8'
+2026-05-04 13:52:42.478 [info] [Window] Using settings sync service https://vscode-sync.trafficmanager.net/ for initialization
+2026-05-04 13:52:43.229 [info] [Window] Initialized Settings
+2026-05-04 13:52:43.871 [info] [Window] Initialized UI State
+2026-05-04 13:52:44.340 [warning] [Window] Creation of workbench contribution 'workbench.contrib.preferencesActions' took 26ms.
+2026-05-04 13:52:44.405 [warning] [Window] Creation of workbench contribution 'workbench.contrib.remoteStatusIndicator' took 22ms.
+2026-05-04 13:52:45.968 [info] [Window] Found additional builtin gallery extensions in env [{"id":"github.codespaces","preRelease":false},{"id":"ms-vscode.anycode","preRelease":false},{"id":"github.remotehub","preRelease":false},{"id":"GitHub.vscode-pull-request-github","preRelease":false},{"id":"github.github-vscode-theme","preRelease":false}]
+2026-05-04 13:52:45.969 [info] [Window] Updating additional builtin extensions cache
+2026-05-04 13:52:47.407 [info] [Cloud Changes] Prompting to enable cloud changes, has application previously launched from Continue On flow: false
+2026-05-04 13:52:57.047 [info] [Window] Remote content does not exist. tasks
+2026-05-04 13:52:57.047 [info] [Window] Initialized Tasks
+2026-05-04 13:52:57.048 [info] [Window] Remote content does not exist. snippets
+2026-05-04 13:52:57.048 [info] [Window] Initialized Snippets
+2026-05-04 13:52:57.433 [info] [Window] Initialized Keyboard Shortcuts
+2026-05-04 13:52:57.449 [info] [Window] Settings Sync: Updated current session github-session-sync-service
+2026-05-04 13:53:04.142 [info] [Window] Settings Sync: Account status changed from uninitialized to available
+2026-05-04 13:53:05.708 [info] [Window] Migrating global extension storage from github.vscode-pull-request-github to GitHub.vscode-pull-request-github...
+2026-05-04 13:53:05.709 [info] [Window] Migrated global extension storage from github.vscode-pull-request-github to GitHub.vscode-pull-request-github
+2026-05-04 13:53:05.711 [info] [Window] Migrating workspace extension storage from github.vscode-pull-request-github to GitHub.vscode-pull-request-github...
+2026-05-04 13:53:05.714 [info] [Window] Migrated workspace extension storage from github.vscode-pull-request-github to GitHub.vscode-pull-request-github
+2026-05-04 13:53:05.738 [info] [Window] Migrating global extension storage from github.remotehub to GitHub.remotehub...
+2026-05-04 13:53:05.738 [info] [Window] Migrated global extension storage from github.remotehub to GitHub.remotehub
+2026-05-04 13:53:05.741 [info] [Window] Migrating workspace extension storage from github.remotehub to GitHub.remotehub...
+2026-05-04 13:53:05.742 [info] [Window] Migrated workspace extension storage from github.remotehub to GitHub.remotehub
