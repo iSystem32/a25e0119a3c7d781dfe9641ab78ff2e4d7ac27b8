@@ -1,0 +1,17 @@
+2026-05-04 13:53:02.425 [info] Extension host started
+2026-05-04 13:53:02.440 [info] ExtensionService#_doActivateExtension ms-vscode.remote-repositories, startup: false, activationEvent: 'onFileSystem:vscode-vfs'
+2026-05-04 13:53:02.445 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2026-05-04 13:53:02.450 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2026-05-04 13:53:03.525 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*'
+2026-05-04 13:53:05.704 [info] ExtensionService#_doActivateExtension GitHub.vscode-pull-request-github, startup: false, activationEvent: 'api', root cause: ms-vscode.remote-repositories
+2026-05-04 13:53:05.735 [info] ExtensionService#_doActivateExtension GitHub.remotehub, startup: false, activationEvent: 'api', root cause: ms-vscode.remote-repositories
+2026-05-04 13:53:05.908 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2026-05-04 13:53:05.914 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2026-05-04 13:53:05.942 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2026-05-04 13:53:10.782 [info] Not activating extension 'vscode.npm': Timed out while searching for 'workspaceContains' pattern package.json
+2026-05-04 13:53:10.816 [info] Eager extensions activated
+2026-05-04 13:53:10.866 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2026-05-04 13:53:10.871 [info] ExtensionService#_doActivateExtension ms-vscode.anycode, startup: false, activationEvent: 'onStartupFinished'
+2026-05-04 13:53:35.847 [info] ExtensionService#_doActivateExtension vscode.markdown-language-features, startup: false, activationEvent: 'onCommand:markdown.showPreview'
+2026-05-04 13:53:45.216 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:markdown'
+2026-05-04 13:53:45.232 [info] ExtensionService#_doActivateExtension vscode.markdown-math, startup: false, activationEvent: 'api', root cause: vscode.markdown-language-features
